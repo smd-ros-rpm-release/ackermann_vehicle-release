@@ -1,0 +1,12 @@
+Source: ros-indigo-ackermann-vehicle-description
+Section: misc
+Priority: extra
+Maintainer: Jim Rothrock <jim.rothrock@wunderkammerlab.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/ackermann_vehicle_description
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ackermann-vehicle-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-joint-state-publisher, ros-indigo-robot-state-publisher, ros-indigo-rviz, ros-indigo-xacro
+Description: ackermann_vehicle_description contains the description (3D model, kinematics, mass, etc.) of a vehicle with Ackermann steering.
