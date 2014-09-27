@@ -1,0 +1,12 @@
+Source: ros-indigo-ackermann-vehicle-gazebo
+Section: misc
+Priority: extra
+Maintainer: Jim Rothrock <jim.rothrock@wunderkammerlab.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/ackermann_vehicle_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ackermann-vehicle-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ackermann-msgs, ros-indigo-ackermann-vehicle-description, ros-indigo-controller-manager, ros-indigo-gazebo-ros, ros-indigo-gazebo-ros-control, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-xacro
+Description: ackermann_vehicle_gazebo is used with Gazebo to simulate a vehicle with Ackermann steering.
